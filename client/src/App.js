@@ -1,15 +1,22 @@
 import React from 'react'
-import { MainPage } from './pages/MainPage'
+import { BrowserRouter } from 'react-router-dom'
+
+import { useRoutes } from './routes'
+
 import { Nav } from './common/Nav'
 
 function App() {
+  const router = useRoutes()
+
   return (
-    <div className="App">
-      <div className="container">
-        <Nav />
-        <MainPage />
+    <BrowserRouter>
+      <div className="App">
+        <div className="container">
+          <Nav />
+          {router}
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
