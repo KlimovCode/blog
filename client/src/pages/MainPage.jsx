@@ -42,11 +42,7 @@ export const MainPage = () => {
 
       </div>
 
-      <nav className="navbar fixed-bottom navbar-light bg-light">
-        <div className="container">
-          <a className="navbar-brand" href="#">Оля эндокринолог</a>
-        </div>
-      </nav>
+
 
     </div>
   )
