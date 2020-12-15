@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <div className="pt-4 my-md-5 pt-md-5 border-top">
+    <div className="pt-4 my-md-5 pt-md-5 border-top fixed-bottom">
       <div className="row">
         <div className="col-12 col-md">
           Оля эндокринолог
