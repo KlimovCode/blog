@@ -13,9 +13,9 @@ export const ContactPage = () => {
         </div>
         <div className="col-8 text-center">
           <p>Some text about myself.</p>
-          <ul class="list-group">
-            <li class="list-group-item">Телефон - 8 *** *** ****</li>
-            <li class="list-group-item">Email - olya@mail.ru</li>
+          <ul className="list-group">
+            <li className="list-group-item">Телефон - 8 *** *** ****</li>
+            <li className="list-group-item">Email - olya@mail.ru</li>
           </ul>
         </div>
       </div>

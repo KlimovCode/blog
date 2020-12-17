@@ -8,7 +8,7 @@ export const Nav = () => {
       <h5 className="my-0 mr-md-auto font-weight-normal">Оля эндокринолог</h5>
       <nav className="my-2 my-md-0 mr-md-3">
         <NavLink to="/" className="p-2 text-dark">Главная</NavLink>
-        <NavLink to="/" className="p-2 text-dark">Обо мне</NavLink>
+        <NavLink to="/about" className="p-2 text-dark">Обо мне</NavLink>
         <NavLink to="/" className="p-2 text-dark">Блог</NavLink>
         <NavLink to="/contacts" className="p-2 text-dark">Контакты</NavLink>
         <NavLink to="/online" className="">Онлайн консультация</NavLink>
